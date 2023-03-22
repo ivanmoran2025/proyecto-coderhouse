@@ -60,3 +60,13 @@ footer ul {
 
 @media (max-width: 575.98px) {
 }
+
+.bg-dark {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
